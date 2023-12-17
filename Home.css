@@ -1,0 +1,259 @@
+@font-face {
+    font-family: Apricot;
+    src: url(/Fonts/ApricotFarmhouse.otf);
+}
+
+@font-face {
+    font-family: Balsamiq;
+    src: url(/Fonts/BalsamiqSans-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(143,122,96);
+    scroll-behavior: smooth;
+}
+
+body{ 
+    background-color: rgb(246,243,227);
+}
+
+/* HOME SECTION */
+.navbar{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    width: 85%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    margin-top: 30px;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(143,122,96);
+    font-weight: bold;
+}
+
+.leftNav h3{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+.leftNav img{
+    position: absolute;
+    margin-top: 20px;
+    width: 40px;
+    left: -30px;
+    border-radius: 100px;
+}
+
+.mainHome{
+    display: inline-block;
+    position: relative;
+    left: -200px;
+    top: -90px;
+}
+
+.Home{
+    position: relative;
+    padding-top: 250px;
+    left: 800px;
+    width: 200px;
+    height: 250px;
+}
+
+.Home img{
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 300px;
+    left: -550px;
+    top: 180px;
+}
+
+.HomeSection{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,
+    rgb(143,122,96) 0%,
+    rgb(143,122,96) 30%,
+    rgb(246,243,227) 30%,
+    rgb(246,243,227) 100%);
+}
+
+h1{
+    font-family: Apricot;
+    font-size: 120px;
+    margin-bottom: -20px;
+    position: relative;
+    width: 500px;
+}
+
+h3{
+    font-family: Balsamiq;
+    left: 23px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(246,243,227);
+}
+
+h4{
+    font-family: Balsamiq;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h5{
+    font-family: Balsamiq;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.button{
+    position: absolute;
+    text-decoration: none;
+    background-color: rgb(143,122,96);
+    color: rgb(246,243,227);
+    font-family: Balsamiq;
+    font-size: 25px;
+    border-radius: 35px;
+    width: 190px;
+    padding: 12px;
+    text-align: center;
+}
+
+/* ABOUT ME SECTION */
+.AboutMeSection{
+    position: absolute;
+    height: 1800px;
+}
+
+.aboutme img, .education img, .works img{
+    width: 60px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+
+.aboutme h1, .education h1, .works h1{
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 90px;
+    font-size: 45px;
+    color: rgb(143,122,96);
+}
+
+.aboutme p, .works p{
+    position: relative;
+    left:110px;
+    top: 120px;
+    font-family: Balsamiq;
+    font-size: 20px;
+    width: 1100px;
+    margin-bottom: 40px;
+}
+
+.works p{
+    left: 200px;
+}
+
+/* EDUCATION SECTION */
+.education table{
+    position: relative;
+    left: 110px;
+    top: 120px;
+    font-family: Balsamiq;
+    font-size: 20px;
+}
+
+.education table tr td th{
+    position: relative;
+    text-align: left;
+}
+
+.education table{
+    width: 60%;
+    height: 230px;
+    margin-bottom: 30px;
+}
+
+.education strong{
+    position: relative;
+    left: 180px;
+}
+
+/* WORKS SECTION */
+.works video{
+    position: relative;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    left: 40%;
+    transform: translateX(-50%);
+    top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.drafting, .illus{
+    position: relative;
+    font-family: Apricot;
+    font-size: 60px;
+    color: rgb(143,122,96);
+}
+
+.drafting{
+    left: 410px;
+    top: 110px;
+}
+
+.illus{
+    left: 800px;
+    top: 60px;
+}
+
+/* CONTACTS SECTION */
+.ContactSection{
+    position: absolute;
+    top: 1800px;
+}
+
+.ContactSection img{
+    width: 50px;
+}
+
+.ContactSection table{
+    font-family:Balsamiq;
+    font-size: 30px;
+    width: 100%;
+    position: relative;
+    left: 350px;
+    top: 200px;
+}
+
+.ContactSection h1{
+    position: relative;
+    left: 200px;
+    top: 150px;
+}
